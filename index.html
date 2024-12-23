@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.65">
+    <meta charset="UTF-8">
+    <title>❤</title>
+    <style>
+        body {
+            margin: 0;
+
+            width: 100vw;
+
+            height: 100vh;
+
+            display: flex;
+
+            flex-direction: column;
+
+            align-items: center;
+
+            justify-content: center;
+
+            background: linear-gradient(to top, #79f784, #86fb90, #C6FFDD);
+
+            background-size: cover;
+            background-position: center center;
+        }
+
+
+        #card {
+
+            position: relative;
+
+            perspective: 3000px;
+
+        }
+
+        section {
+            width: 560px;
+
+            height: 400px;
+
+            border-radius: 10px;
+
+            box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+        }
+
+        #cover {
+
+            background-color: #2b0f42;
+            color: #ffffff;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+
+        }
+
+        #cover.animate {
+            transform: rotateX(180deg);
+
+            transform-origin: 0% 0%;
+
+            transition: transform 2s;
+        }
+
+        #cover.animate>* {
+            opacity: 0;
+
+            transition: opacity 1s;
+        }
+
+        #cover:hover {
+            transform: rotateX(180deg);
+
+            transform-origin: 0% 0%;
+
+            transition: transform 2s;
+        }
+
+        #cover img {
+            height: 50%
+        }
+
+        #cover h1 {
+            font-size: 32px;
+            margin: 0px;
+        }
+
+        #cover h2 {
+            font-size: 18px;
+            margin: 0px;
+        }
+
+
+        #message {
+
+            background-color: rgba(255, 255, 255, 0.5);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            backdrop-filter: blur(8px);
+        }
+
+        #message h1 {
+            font-size: 21px;
+
+            margin: 0;
+        }
+
+        #message img {
+            height: 60%;
+        }
+    </style>
+</head>
+
+
+<body>
+    <main id='card'>
+        <section id="cover">
+            <img src=https://cdn.discordapp.com/attachments/1225525901446352938/1320846096494493820/1.jpg?ex=676b1549&is=6769c3c9&hm=2a6a2c0052518e7006b977239f9b9d377a2bce2966896d2f9bdc9c870ea09bc2&>
+            <h1>Para quem eu mais amei</h1>
+            <h2>Eu te amo❤️</h2>
+        </section>
+        <section id='message'>
+            <h1>Por mais que eu negue, eu não consigo remover você dos meus pensamentos, da minha vida, de tudo. Infelizmente você me "assombra" todas as noites  e dias, todos os momentos que passamos juntos me vem a memória, não te julgo por ter ido embora, eu as vezes  entendo o pq as pessoas nunca querem ficar.  Eu não sou suficiente, não sou bom o suficiente pra  fazer alguém ficar. Esta tudo bem, você ta bem então é isso que importa,  estou rezando e torcendo  por você. Por mais que eu negue, eu  ainda sim sinto sua falta. Me desculpa por me apegar, por te querer de um jeito que você não pode retribuir, estou preso a um amor que não pode ser e mesmo assim meu coração insiste em esperar. Obrigado pelos melhores meses ao seu lado❤️</h1>
+            <h1>Sinto sua falta❤️</h1>
+        </section>
+
+        <h4 style="position:relative; left: 35%; top: 10%;">Passe pela mensagem</h4>
+    </main>
+</body>
+
+</html>
